@@ -4,12 +4,18 @@
     padding: 16px;
     box-shadow: 2px 2px white;
     text-align: center;
+    cursor:pointer;
 }
 
 .card > h2 {
     font-size: 32px;
+    border-left: 6px solid #a8d3e9;
 }
 
 .card > img {
     border-radius: 10px;
+}
+
+.tag {
+    background: white;
 }
