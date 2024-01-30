@@ -10,11 +10,18 @@ function App() {
     name: 'Morty Smith',
     image: 'https://rickandmortyapi.com/api/character/avatar/2.jpeg',
   }
+  const item3 = {
+    name: 'Summer Smith',
+    image: 'https://rickandmortyapi.com/api/character/avatar/3.jpeg',
+  }
 
   return (
     <>
-      <Card item = {item1}/>
-      <Card item = {item2}/>
+      <div className='cards'>
+        <Card item = {item1}/>
+        <Card item = {item2}/>
+        <Card item = {item3}/>
+      </div>
     </>
   )
 }
