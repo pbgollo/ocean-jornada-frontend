@@ -31,8 +31,7 @@ Para instalar o aplicativo, siga estas etapas:
 
 - Clone o repositório em sua máquina local
 - No terminal, navegue até a pasta do projeto
-- Execute npm install para instalar as dependências
-- Execute npm start para iniciar o servidor de desenvolvimento do React
+- Execute npm run dev para iniciar o servidor de desenvolvimento do React
 
 ## ☕ Usando o projeto
 
